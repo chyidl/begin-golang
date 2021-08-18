@@ -1,8 +1,8 @@
 package log
 
 import (
-	"os"
 	"github.com/sirupsen/logrus"
+	"os"
 )
 
 var logger *logrus.Logger
