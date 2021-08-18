@@ -23,10 +23,15 @@ Golang
 
 * 开发环境构建
 ```
-# GOPATH
+# GOROOT: Go语言安装根目录的路径
+# GOBIN: Go程序生成的可执行文件 executable file
+# GOPATH: 若干工作区目录的路径
     1. 1.8版本以前必须设置这个环境变量
     2. 1.8版本以后，如果没有设置会使用默认值
         Unix默认 $HOME/go
+# src: 
+# pkg: 归档文件.a扩展名
+# bin: 可执行文件
 
 ➜ go version
 go version go1.16.6 linux/arm64
